@@ -32,12 +32,13 @@ function add(){
 
 
 function deleteTask(id) {
-    let element = document.getElementById(id)
-    element.remove()
+    let element = document.getElementById(id);
+    if (element) {
+        element.remove();  // Remove the DOM element
+    }
 
-    tasks = tasks.forEach(task => {
-        console.log(task.id,":",id)
-    })
+    // Filter out the task with the matching id from the tasks array
+    tasks = tasks.filter((task) => task.id != id);  // Use !== to ensure strict comparison
 }
 
 function clearTasks(){
