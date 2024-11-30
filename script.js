@@ -34,7 +34,7 @@ function add(){
 function deleteTask(id) {
     let element = document.getElementById(id)
     element.remove()
-    tasks = tasks.filter((task) => task.id != id)
+    tasks = tasks.filter((task) => task.id !== id)
 }
 
 function clearTasks(){
