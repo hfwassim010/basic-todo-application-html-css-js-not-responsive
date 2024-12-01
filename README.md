@@ -9,6 +9,10 @@ This is a simple To-Do application designed to manage tasks. The application all
 - Delete individual tasks
 - Delete all tasks
 
+<video width="600" controls>
+    <source src="assets/videos/2024-12-01 00-54-27.mp4" type="video/mp4">
+</video>
+
 The app uses basic HTML, CSS, and JavaScript for functionality. It operates on task objects and utilizes various JavaScript array methods for task management.
 
 ### Features
